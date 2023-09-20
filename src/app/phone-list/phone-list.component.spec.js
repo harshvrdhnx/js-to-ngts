@@ -6,7 +6,7 @@ describe('phoneList', function() {
   beforeEach(module('phoneList'));
 
   // Test the controller
-  describe('PhoneListController', function() {
+  describe('PhoneListComponent', function() {
     var $httpBackend, ctrl;
 
     beforeEach(inject(function($componentController, _$httpBackend_) {

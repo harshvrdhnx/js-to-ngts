@@ -6,7 +6,7 @@ describe('phoneDetail', function() {
   beforeEach(module('phoneDetail'));
 
   // Test the controller
-  describe('PhoneDetailController', function() {
+  describe('PhoneDetailComponent', function() {
     var $httpBackend, ctrl;
     var xyzPhoneData = {
       name: 'phone xyz',
